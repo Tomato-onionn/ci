@@ -28,7 +28,7 @@ public class TaxCalculator {
         }
 
         // Calculate taxable income
-        float ti = sal * te - 9000000 - nod * 4000000;
+        float ti = sal - te - 9000000 - nod * 4000000;
 
         // Check if taxable income is positive
         if (ti <= 0) {
